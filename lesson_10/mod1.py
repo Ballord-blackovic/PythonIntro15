@@ -5,7 +5,9 @@ Some information
 
 # import module_name
 import sys
-# from random import randint
+from random import randint
+
+__all__ = ['string', 'num']
 
 string = 'Hello World'
 num = 63454546
@@ -31,6 +33,9 @@ def print_lst(lst):
 
 # print(sys.path)
 # print(randint(10, 56))
-
-print(dir())
-print(sys.path)
+# print(__name__, 3, 547, 'df')
+if __name__ == '__main__':
+    print(__name__)
+    print(randint(34, 78))
+    print(dir())
+    print(sys.path)
