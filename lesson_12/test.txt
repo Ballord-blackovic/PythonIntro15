@@ -1,0 +1,3 @@
+Process finished with exit code 0
+124323523531
+Привет Мир!
