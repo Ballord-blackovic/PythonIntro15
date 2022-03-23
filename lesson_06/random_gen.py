@@ -16,7 +16,7 @@ print()
 # randrange(start, stop, step)  range(1, 10, 2)  1, 2, 3, 4, 5, 6, 7 ,8, 9  => 1, 3, 5, 7, 9
 #                           randrange(1, 10, 2)  6, 4, 8, 3, 7, 9, 2, 1, 5  => 7, 5, 9, 7, 1
 for _ in range(25):
-    print(randrange(1, 10, 2), end=' ')
+    print(randrange(1, 15, 1), end=' ')
 print()
 
 # uniform(start, stop)
